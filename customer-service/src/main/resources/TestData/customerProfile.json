@@ -1,0 +1,36 @@
+{
+  "firstName": "Hermitage",
+  "lastName": "Sally",
+  "dateOfBirth": "1995-07-08",
+  "addresses": [
+    {
+      "streetLine_1": "56 CRESCENT EXECUTIVE COURT",
+      "city": "LAKE MARY",
+      "state": "FL",
+      "postalCode": "32762",
+      "addressType": "physical"
+    }
+  ],
+  "emails": [
+    {
+      "address": "test@test.com",
+      "emailType": "primary"
+    }
+  ],
+  "phones": [
+    {
+      "number": "2235551234",
+      "phoneType": "home"
+    },
+    {
+      "number": "2235551234",
+      "phoneType": "mobile"
+    }
+  ],
+  "coreIdentifications": [
+    {
+      "idNumber": "56",
+      "idType": "Personal"
+    }
+  ]
+}

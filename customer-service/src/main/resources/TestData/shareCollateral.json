@@ -1,0 +1,25 @@
+{
+  "collateralId": "CUSTCOL302",
+  "collateralStatus": "ACTIVE",
+  "customerId": "PTY0001",
+  "collateralType": "SHARE",
+  "branchCode": "00000001",
+  "description": "shares as collateral",
+  "customerName": "JonyLever LeverJony",
+  "effectiveDate": "2020-07-03",
+  "shareDetails": [
+    {
+      "isinCinNumber": "TT234",
+      "numberOfShare": 1000
+    }
+  ],
+  "marketValue": {
+    "value": 1300000,
+    "currency": "USD"
+  },
+  "totalCoverValue": {
+    "value": 585000,
+    "currency": "USD"
+  },
+  "chargeFundingAccount": "02020YBILL100"
+}

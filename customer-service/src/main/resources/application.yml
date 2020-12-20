@@ -1,0 +1,26 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    com.finastra: DEBUG
+
+
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          finastra:
+            token-uri: https://api.fusionfabric.cloud/login/v1/sandbox/oidc/token
+        registration:
+          finastra:
+            authorization-grant-type: client_credentials
+            client-id: 52f66edb-0dcb-4ac0-9791-4240a545e769
+            client-secret: 56415485-2f81-491d-8cdf-903919165d9b
+
+
+cscm:
+  endpoint: api.fusionfabric.cloud/retail-us/customer-read/v1/consumers

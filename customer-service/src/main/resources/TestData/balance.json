@@ -1,0 +1,45 @@
+{
+  "accountId": "01010OA00P209",
+  "balances": [
+    {
+      "balanceType": "CLOSINGBOOKED",
+      "amount": {
+        "amount": "-340741.19",
+        "currency": "USD"
+      },
+      "dateTime": "2020-11-16T23:59:59.999+0530"
+    },
+    {
+      "balanceType": "OPENINGBOOKED",
+      "amount": {
+        "amount": "-340741.19",
+        "currency": "USD"
+      },
+      "dateTime": "2020-11-17T00:00:00.000+0530"
+    },
+    {
+      "balanceType": "INTERIMAVAILABLE",
+      "amount": {
+        "amount": "0.00",
+        "currency": "USD"
+      },
+      "dateTime": "2020-11-17T00:14:23.537+0530"
+    },
+    {
+      "balanceType": "INTERIMBOOKED",
+      "amount": {
+        "amount": "-340741.09",
+        "currency": "USD"
+      },
+      "dateTime": "2020-11-17T00:14:23.537+0530"
+    },
+    {
+      "balanceType": "INTERIMCLEARED",
+      "amount": {
+        "amount": "-340741.09",
+        "currency": "USD"
+      },
+      "dateTime": "2020-11-17T00:14:23.537+0530"
+    }
+  ]
+}

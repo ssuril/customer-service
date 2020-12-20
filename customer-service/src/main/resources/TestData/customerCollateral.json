@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "collateralId": "CUSTCOL1",
+      "collateralStatus": "ACTIVE",
+      "customerId": "PTY0001",
+      "collateralType": "CASH1",
+      "description": "collateral gbp",
+      "expiryDate": "2021-07-03",
+      "totalCoverValue": {
+        "value": 6499270.12,
+        "currency": "EUR"
+      }
+    },
+    {
+      "collateralId": "CUSTCOL302",
+      "collateralStatus": "ACTIVE",
+      "customerId": "PTY0001",
+      "collateralType": "SHARE",
+      "description": "shares as collateral",
+      "totalCoverValue": {
+        "value": 585000,
+        "currency": "USD"
+      }
+    },
+    {
+      "collateralId": "CUSTCOL303",
+      "collateralStatus": "ACTIVE",
+      "customerId": "PTY0001",
+      "collateralType": "PLEDG",
+      "description": "collateral for fd in gbp",
+      "expiryDate": "2050-07-06",
+      "totalCoverValue": {
+        "value": 150000,
+        "currency": "GBP"
+      }
+    }
+  ],
+  "links": {
+    "self": {
+      "href": "/customer-collaterals/PTY0001?limit=10&offset=0",
+      "templated": true
+    },
+    "first": {
+      "href": "/customer-collaterals/PTY0001?limit=10&offset=0",
+      "templated": true
+    },
+    "next": {
+      "href": "/customer-collaterals/PTY0001?limit=10&offset=10",
+      "templated": true
+    },
+    "prev": {
+      "href": "/customer-collaterals/PTY0001?limit=10&offset=0",
+      "templated": true
+    }
+  }
+}
